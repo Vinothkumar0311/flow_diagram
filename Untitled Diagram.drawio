@@ -75,6 +75,9 @@
         <mxCell id="upbcWurZrP7KiI8Nadkp-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="upbcWurZrP7KiI8Nadkp-20" target="upbcWurZrP7KiI8Nadkp-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="upbcWurZrP7KiI8Nadkp-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="upbcWurZrP7KiI8Nadkp-20" target="upbcWurZrP7KiI8Nadkp-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="upbcWurZrP7KiI8Nadkp-20" value="student" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="516" y="125" width="120" height="60" as="geometry" />
         </mxCell>
@@ -83,6 +86,15 @@
         </mxCell>
         <mxCell id="upbcWurZrP7KiI8Nadkp-24" value="Report" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="360" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="upbcWurZrP7KiI8Nadkp-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="upbcWurZrP7KiI8Nadkp-26" target="upbcWurZrP7KiI8Nadkp-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="upbcWurZrP7KiI8Nadkp-26" value="Manual Fee paymnet" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="516" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="upbcWurZrP7KiI8Nadkp-28" value="Check payment approved" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="556" y="370" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
