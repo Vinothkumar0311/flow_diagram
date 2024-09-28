@@ -1,0 +1,32 @@
+graph TD
+    A[Start] --> B{Ready?}
+    B -->|Yes| C[ld Promo only]
+    B -->|No| D[End of Missed pre study offer]
+    C --> E{Eligible?}
+    E -->|Yes| F[Request Submitted]
+    E -->|No| G[End]
+    F --> H{Existing Member?}
+    H --> I[Listed here]
+    H --> J[Declined here]
+    H --> K[Sent you there]
+    I --> L{Store Closed?}
+    J --> M{Store Closed?}
+    K --> N{Store Closed?}
+    L -->|Yes| O[GCE Review]
+    L -->|No| P[Notify to Student Loan is approved]
+    M -->|Yes| Q[GCE Review]
+    M -->|No| R[Notify to Student Loan request declined]
+    N -->|Yes| S[GCE Review]
+    N -->|No| T[Notify to Student Loan Decision is sent]
+    O -->|Yes| U[Notify to Student Loan is approved]
+    O -->|No| V[End]
+    Q -->|Yes| W[Notify to Student Loan request declined]
+    Q -->|No| X[End]
+    S -->|Yes| Y[Notify to Student Loan Decision is sent]
+    S -->|No| Z[End]
+    P --> AA[End]
+    R --> AB[End]
+    T --> AC[End]
+    U --> AD[End]
+    W --> AE[End]
+    Y --> AF[End]
